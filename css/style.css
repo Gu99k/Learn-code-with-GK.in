@@ -206,6 +206,9 @@ p {
         width: 100%;
         margin: auto;
     }
+    header{
+        font-weight:bolder;
+    }
 
     /* .arrow-sign {
 
