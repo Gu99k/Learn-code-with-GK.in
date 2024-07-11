@@ -9,8 +9,6 @@
 body {
   font-family: "Nunito Sans", sans-serif;
   background-color: rgb(3, 18, 40);
-
-  /* background: rgba(0, 0, 0, 0.7) url(https://images.pexels.com/photos/1519088/pexels-photo-1519088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2); */
   background-size: cover;
   background-blend-mode: darken;
   overflow-x: hidden;
@@ -26,7 +24,7 @@ body {
 }
 
 .background {
-  background: rgba(0, 0, 0, 0.7) url(./img/background.jpg);
+  background: rgba(0, 0, 0, 0.7) url(/img/background.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
