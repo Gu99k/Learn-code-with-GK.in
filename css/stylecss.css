@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: -webkit-fill-available;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  scroll-padding: 7.4rem;
+  overflow-x: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  color: #333336;
+  font-family: "Open Sans", Arial, sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.css-course {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* position: relative; */
+
+  overflow: hidden;
+}
+
+#navbar {
+  position: fixed;
+
+  left: 0;
+  /* top: 0; */
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgb(161, 161, 180);
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  /* color: #4d4e53; */
+  color: #b9b5b5;
+  text-decoration: none;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.line {
+  background-color: black;
+  width: 30px;
+  height: 5px;
+  margin: 3px 30px;
+}
+
+.sidenav {
+  height: 50px;
+  width: 100%;
+  background-color: #f1f3f4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  display: none;
+}
+
+#mySidenav {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 900;
+  padding: 5px;
+}
+
+#mySidenav:hover {
+  cursor: pointer;
+}
+
+#main-doc {
+  /* position: absolute; */
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+  height: calc(100% - 50px);
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0;
+}
+
+header {
+  color: rgb(9 171 170);
+  font-size: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  margin: 18px;
+}
+
+.close-nav {
+  /* display: none; */
+}
+
+section article {
+  color: #4d4e53;
+  margin: 15px;
+  font-size: 0.96rem;
+}
+
+h5 {
+  font-style: italic;
+  color: #2548f5;
+  text-decoration-line: underline;
+  padding: 8px;
+}
+
+h4 {
+  font-size: larger;
+  color: rgb(135, 8, 154);
+  /* border-bottom: 2px solid #333336; */
+}
+
+.html-css-code {
+  background-color: #97a946;
+  color: #414647;
+
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.Lilinks li {
+  color: rgb(162 163 109);
+  padding: 2px;
+  margin: 3px 0 3px 62px;
+}
+
+/* pre {
+    position: relative;
+    text-align: left;
+
+} */
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  /* position: relative; */
+  word-break: normal;
+  word-wrap: normal;
+  /* line-height: 2; */
+  /* background-color: #1c3643; */
+  background-color: #283142;
+  /* color: #b9b5b5; */
+  color: #f1f3f4;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+p {
+  padding: 5px 0;
+  color: #d3d0d0;
+  margin: 5px 1px 4px 7px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .nav-link {
+    font-size: 0.95em;
+  }
+}
+
+/* */
+
+@media only screen and (max-width: 600px) {
+  #navbar {
+    /* display: none; */
+    background-color: #4d4e53;
+    width: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  #main-doc {
+    width: 100%;
+    margin: auto;
+  }
+
+  #navbar ul li a {
+    background-color: #4d4e53;
+  }
+
+  #navbar header {
+    font-weight: 100;
+    color: rgb(9 171 170);
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 10px;
+    display: inline-flex;
+    background-color: #23252c;
+  }
+
+  .close-nav {
+    height: 34px;
+    width: 35px;
+
+    margin-left: 37px;
+
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+    display: block;
+  }
+
+  .sidenav {
+    height: 50px;
+    width: 100%;
+    background-color: #f1f3f4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .mySidenav {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+    padding: 5px;
+    display: block;
+  }
+
+  .mySidenav:hover {
+    cursor: pointer;
+  }
+}

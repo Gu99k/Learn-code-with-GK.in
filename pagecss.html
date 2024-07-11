@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technical documentation page</title>
+        <link rel="stylesheet" href="./css/stylecss.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+
+        <nav class="head-navbar background">
+
+            <ul class="head-nav-list">
+                <div class="logo"> <a href="./index.html"> <img src="/img/logo1.jpeg" alt="logo"></a></div>
+                <li><a href="./">HTML</a></li>
+                <li><a href="./pagecss.html">CSS</a></li>
+                <li><a href="#JS">JS</a></li>
+                <li><a href="#C">C</a></li>
+                <li><a href="#REACT JS">REACT JS</a></li>
+            </ul>
+            <div class="right-head-nav-list">
+                <input type="text" name="search" id="search" placeholder="Search">
+                <button class="btn">Search</button>
+
+            </div>
+        </nav>
+        <div class="css-course">
+            <nav id="navbar">
+                <!-- <span id="sidbar-close" class="close-nav">&times;</span> -->
+                <header>CSS Documentation </header>
+                <ul>
+                    <li>
+                        <a class="nav-link" href="#CSS:_Cascading_Style_Sheets">CSS: Cascading Style Sheets</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Why_Use_CSS?">Why Use CSS?</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#How_to_use_CSS?">How to use CSS?</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Your_first_line_of_CSS">Your first line of CSS</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Creating_our_first_css_website">Creating our first css website</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#HTML_id_and_class_attributes">HTML id and class attributes</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#CSS_selector">CSS selector</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Element_selector">Element selector</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#CSS_Universal_Selector">CSS Universal Selector</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#CSS_Grouping_Selector">CSS Grouping Selector</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#CSS_Comments">CSS Comments</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#Reference">Reference</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+            <main id="main-doc">
+                <!-- <div class="sidenav">
+                    <span id="navbar-open" class="mySidenav">&#9776;</span>
+                </div> -->
+                <section class="main-section" id="CSS:_Cascading_Style_Sheets">
+
+                    <header>CSS: Cascading Style Sheets</header>
+                    <article>
+                        <p>Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a
+                            document written in HTML or
+                            XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should
+                            be
+                            rendered on screen, on
+                            paper, in speech, or on other media.</p>
+                        <p>CSS is among the core languages of the open web and is standardized across Web browsers
+                            according
+                            to W3C specifications.
+                            Previously, the development of various parts of CSS specification was done synchronously,
+                            which
+                            allowed the versioning
+                            of the latest recommendations. You might have heard about CSS1, CSS2.1, or even CSS3. There
+                            will
+                            never be a CSS3 or a
+                            CSS4; rather, everything is now CSS without a version number.</p>
+
+
+                    </article>
+                </section>
+                <section class="main-section" id="Why_Use_CSS?">
+                    <header>Why Use CSS?</header>
+                    <article>
+                        <p>CSS is used to define styles for your web pages, including the design, layout and variations
+                            in
+                            display for different devices and screen sizes.</p>
+                        <div class="html-css-code">
+                            <h5>CSS Example.</h5>
+                            <pre>
+                     <code>
+                        body {
+                        background-color: lightblue;
+                        }
+                        
+                        h1 {
+                        color: white;
+                        text-align: center;
+                        }
+                        
+                        p {
+                        font-family: verdana;
+                        font-size: 20px;
+                        }
+                     </code>
+                    </pre>
+
+                        </div>
+                    </article>
+                </section>
+                <section class="main-section" id="How_to_use_CSS?">
+                    <header>How to use CSS?</header>
+                    <article>
+                        <p>CSS can be added to HTML documents in 3 ways:</p>
+                        <ul class="Lilinks">
+                            <li>Inline - by using the style attribute inside HTML elements.</li>
+                            <li>Internal - by using a &lt;style&gt; element in &lt;head&gt; the section.</li>
+
+
+                            <li>External - by using a element to &lt;link&gt; to an external CSS file.
+                            </li>
+
+                        </ul>
+                    </article>
+                </section>
+                <section class="main-section" id="Your_first_line_of_CSS">
+                    <header>Your first line of CSS </header>
+                    <article>
+                        <p>Create a .css file inside your directory and add it to your html add the following line to
+                            your
+                            css. </p>
+                        <div class="html-css-code">
+                            <h5>CSS Example.</h5>
+                            <pre>
+                    <code>
+                          body{
+                            background-color:red;
+                          }
+                    </code>
+                    
+                </pre>
+                        </div>
+                        <p>This will make your page background color as red.</p>
+                    </article>
+                </section>
+                <section class="main-section" id="Creating_our_first_css_website">
+                    <header>Creating our first css website </header>
+                    <article>
+                        <p>We will create our first css website in the section.</p>
+                        <h4>What is DOM?</h4>
+                        <p>DOM stands for document object model, when a page is loaded, the browser creates a DOM of the
+                            page Which is constructed as a tree of objects.</p>
+                        <h5>Note:-</h5>
+                        <ul class="Lilinks">
+                            <li>We write our code in HTML with the help of tags and attributes.</li>
+                            <li>So to make style of the page we use css property. </li>
+                            <li>we target on the given tags name and attributes name. </li>
+                            <li>Then write our css code in curly brackets.</li>
+                        </ul>
+                    </article>
+                </section>
+                <section class="main-section" id="HTML_id_and_class_attributes">
+                    <header>HTML id and class attributes </header>
+                    <article>
+
+                        <p>When an HTML element is given an id so id is a unique identifier for that indivisual element,
+                            it uses for only one element.
+                        </p>
+                        <p>When an HTML element is given a class it means same class name can be use one or more
+                            element.
+                        </p>
+                        <h5>Note:-</h5>
+                        <ul class="Lilinks">
+                            <li>During to write css code for id we use '#'id_name{write css code here}</li>
+                            <li>During to write css code for class we use '.'class_name{write css code here}</li>
+                        </ul>
+                        <h4>Id selector</h4>
+                        <div class="html-css-code">
+                            <h5>HTML code:-</h5>
+                            <pre>
+                      <code>
+                         &lt;div&gt; id="first">use css property on id 'first' &lt;/div&gt;
+                      </code>
+                    </pre>
+                            <h5>CSS code Apply</h5>
+                            <pre>
+                        <code>
+                            #first{
+                                  background-color:yellow;
+                                  color:green;
+                                }
+                        </code>
+                    </pre>
+                            <!-- <span class="arrow arrow-sign">&#10233;</span>
+                            <div class="second second-output">use css property on id 'first' </div> -->
+                        </div>
+                        <hr>
+                        <h4>Class selector</h4>
+                        <div class="html-css-code">
+                            <h5>HTML code:-</h5>
+                            <pre>
+                      <code>
+                         &lt;div&gt; class="second">use css property on class 'second' &lt;/div&gt;
+                      </code>
+                    </pre>
+                            <h5>CSS code Apply</h5>
+                            <pre>
+                        <code>
+                            .second{
+                                background-color:yellow;
+                                color:green;
+                                }
+                        </code>
+                       </pre>
+                            <!-- <div class="css-output">
+                                 <span class="arrow arrow-sign">&#10233;</span>
+                                <div class="second second-output">use css property on class 'second' </div> 
+                            </div> -->
+
+                        </div>
+
+                    </article>
+                </section>
+                <section class="main-section" id="CSS_selector">
+                    <header>CSS selector</header>
+                    <article>
+                        <p>A css selector is used to select an HTML elements for styling</p>
+                        <div class="html-css-code">
+
+                            <pre>
+                     <code>
+                        body{
+                            color:red;
+                            background-color:pink;
+                        }
+                     </code>
+                    </pre>
+
+                        </div>
+                    </article>
+                </section>
+                <section class="main-section" id="Element_selector">
+                    <header>Element selector</header>
+                    <article>
+                        <p>It is used to select an elements based of the tagname</p>
+                        <div class="html-css-code">
+                            <pre>
+                     <code>
+                        h5{
+                            color:red;
+                            background-color:pink;
+                        }
+                     </code>
+                    </pre>
+
+                        </div>
+                    </article>
+                </section>
+                <section class="main-section" id="CSS_Universal_Selector">
+                    <header>CSS Universal Selector</header>
+                    <article>
+                        <p>The universal selector (*) selects all HTML elements on the page.</p>
+                        <div class="html-css-code">
+
+                            <pre>
+                    <code>
+                    *{
+                     text-align: center;
+                     color: blue;
+                    }
+                    </code>
+                </pre>
+
+                        </div>
+                    </article>
+                </section>
+                <section class="main-section" id="CSS_Grouping_Selector">
+                    <header>CSS Grouping Selector</header>
+                    <article>
+                        <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
+                        <p>Look at the following CSS code (the h1, h2, and p elements have the same style definitions):
+                        </p>
+                        <div class="html-css-code">
+
+                            <pre>
+                    <code>
+                    h1 {
+                    text-align: center;
+                    color: red;
+                    }
+                    
+                    h2 {
+                    text-align: center;
+                    color: red;
+                    }
+                    
+                    p {
+                    text-align: center;
+                    color: red;
+                    }
+                    </code>
+                </pre>
+
+                        </div>
+                        <p>It will be better to group the selectors, to minimize the code.</p>
+                        <p>To group selectors, separate each selector with a comma.</p>
+                        <div class="html-css-code">
+                            <pre>
+                        <code>
+                            h1, h2, p {
+                            text-align: center;
+                            color: red;
+                            }
+                        </code>
+                    </pre>
+                        </div>
+                    </article>
+                </section>
+
+                <section class="main-section" id="CSS_Comments">
+                    <header>CSS Comments</header>
+                    <article>
+                        <ul class="Lilinks">
+                            <li>SS comments are not displayed in the browser, but they can help document your source
+                                code.
+                            </li>
+                            <li>Comments are used to explain the code, and may help when you edit the source code at a
+                                later
+                                date.</li>
+                            <li>&lt;style&gt; element, and starts with /* and ends with */
+                                A CSS comment is placed inside the :
+                            </li>
+
+                        </ul>
+                        <div class="html-css-code">
+                            <pre>
+                                <code>
+                                p {
+                                color: red;      /* Set text color to red this is comment for understanding of the                 programmer */
+                                }
+                                </code>
+                            </pre>
+
+                        </div>
+                    </article>
+                </section>
+
+                <section class="main-section" id="Reference">
+                    <header>Reference</header>
+                    <article>
+                        <ul class="Lilinks">
+                            <li>
+                                If you want to Explore more about css so please click on given link!
+                                <a href="https://www.w3schools.com/css/default.asp" target="_blank">w3schools</a>
+                            </li>
+                        </ul>
+
+                    </article>
+                </section>
+            </main>
+        </div>
+        <script>
+            let close = document.querySelector("#sidbar-close");
+            let open = document.querySelector("#navbar-open");
+            let navoc = document.querySelector("#navbar");
+
+
+            open.addEventListener("click", () => {
+                document.navoc.style.width = "100%";
+                console.log(open);
+            })
+            close.addEventListener("click", () => {
+                document.navoc.style.width = "0";
+                console.log(close);
+            })
+        </script>
+    </body>
+
+</html>
